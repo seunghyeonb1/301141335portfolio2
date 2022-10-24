@@ -1,0 +1,37 @@
+{
+  "name": "portfolio1301141335",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^18.9.1",
+    "npm": "6.14.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^5.2.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.1",
+    "mongoose": "^6.6.7",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
+  },
+  "description": "portfolio ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seunghyeonb1/301141335portfolio1.git"
+  },
+  "author": "seunghyeonBan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seunghyeonb1/301141335portfolio1/issues"
+  },
+  "homepage": "https://github.com/seunghyeonb1/301141335portfolio1#readme"
+}

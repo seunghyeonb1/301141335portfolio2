@@ -1,0 +1,42 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<link rel='stylesheet' href='/content/services.css' />
+
+<!--main content-->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <section>
+        <h3>Services I offer for now.</h3>
+        <h4 class="section-lead">3 services are available from me.</h4>
+        <div class="services-grid">
+          <div class="service service1">
+            <i class="webdev"></i>
+            <h4>Web development</h4><img src="/Assets/images/webdev.png" height="200" width="300">
+            <p><strong>I ensure that sites meet user expectations by ensuring they look good, run smoothly and offer easy access points with no loading issues between pages or error messages.</strong></p>
+          </div>
+      
+          <div class="service service2">
+            <i class="ti-C#-developemnt"></i>
+            <h4>C# development.</h4><img src="/Assets/images/dev2.png" height="200" width="300">
+            <p><strong>create a number of different programs and applications: mobile apps, desktop apps, cloud-based services, websites, enterprise software and games. Lots and lots of games.</strong></p>
+          </div>
+      
+          <div class="service service3">
+            <i class="database"></i>
+            <h4>Database maintaince.</h4><img src="/Assets/images/db1.jpg" height="200" width="300">
+            <p>Apply the latest database server and client software fix pack on the database and application server.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+
+
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
